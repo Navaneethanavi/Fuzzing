@@ -1,5 +1,5 @@
 CC=afl-gcc
-DEPS=main.c fuzzgoat.c
+DEPS=treetravelsal.c
 ASAN=-fsanitize=address
 CFLAGS=-I.
 LIBS=-lm
